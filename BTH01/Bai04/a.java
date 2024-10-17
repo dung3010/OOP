@@ -47,5 +47,6 @@ public class Bai04a {
         xuatMang(a);
         System.out.println(IntStream.of(a).sum()); // Stream tinh tong mang (max, min)
         System.out.println(IntStream.of(a).filter(x -> isPrime(x) == true).sum()); // Stream tinh tong cac so nguyen to
+        System.out.println(IntStream.of(a).filter(x -> isPrime(x) == true).min().getAsInt());// getAsInt xuat gia tri ra kieu int
     }
 }
