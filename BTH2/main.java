@@ -16,5 +16,8 @@
         trungDiem.hienThiDiem();
         System.out.println();
         System.out.println(doan1.isSongSong(doan2));
+
+        HinhChuNhat hcn = new HinhChuNhat(new Diem(2, 5), new Diem(7, 2));
+        System.out.println(hcn.tinhDienTich());
     }
 
